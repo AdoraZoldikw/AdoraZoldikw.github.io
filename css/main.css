@@ -1,0 +1,97 @@
+*{
+padding:0 ;
+margin: 0;
+box-sizing: border-box;
+}
+
+@font-face{
+   font-family: Roboto ;
+    src: url(../fonts/Roboto-Regular\ \(2\).ttf);
+}
+
+
+body{
+    background-color: rgba(91, 222, 255, 0.884);
+}
+main{
+    width: 70%;
+    padding: 50px;
+    margin: auto;
+    background-color: rgb(172, 211, 255);  
+    display:flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.photo{
+    width: 200px;
+    height: 200px;
+  margin: 10px;
+  background-color: turquoise;
+  transition: all 3s   ease;
+  border: 2px gold;
+  border-radius: 200px;
+  box-shadow: 10px 10px rgb(91, 195, 236);
+}
+.photo:hover{
+    transform: rotate(360deg)scale(1.07);
+  
+}
+  
+h1{
+    width: 100%;
+    text-align: center;
+    font-size: 48px;
+    font-family: cursive;
+font-family: monospace;
+}
+.photo1{
+    background-image: url(../images/EGgUI5vXUAAAJnX.jpg);
+    background-size: 100%;
+
+}
+.photo2{
+    background-image: url(../images/1b1a4cc5eb921f86d931d592715c0240.jpg);
+    background-size: 100%; 
+}
+.photo3{
+    background-image: url(../images/Без\ названия.jpg);
+    background-size: 100%; 
+}
+.photo4{
+    background-image: url(../images/ktd.jpg);
+    background-size: 100%;
+}
+.photo5{
+    background-image: url(../images/kun.png);
+    background-size: 100%;
+}
+.photo6{
+    background-image:url(../images/killua.jpg);
+    background-size: 100%   
+}
+.photo7{
+    background-image:url(../images/lukas.jpg);
+    background-size: 100%   
+}
+.photo8{
+    background-image:url(../images/rintaro.jpg);
+    background-size: 100%   
+}
+.photo9{
+    background-image:url(../images/ika.jpg);
+    background-size: 100%   
+}
+.photo10{
+    background-image:url(../images/kara.jpg);
+    background-size: 100%   
+}
+.photo11{
+    background-image:url(../images/riza.jpg);
+    background-size: 100%   
+}
+.photo12{
+    background-image:url(../images/Natsu_Dragneel.png);
+    background-size: 100%   
+}
+
+
